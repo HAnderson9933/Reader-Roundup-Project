@@ -1,3 +1,8 @@
+html, body{
+  margin: 0px;
+  padding: 0px;
+}
+
 .App {
   text-align: center;
 }
@@ -36,3 +41,48 @@
     transform: rotate(360deg);
   }
 }
+
+button{
+  background-color: blueviolet;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px;
+  box-shadow: 2px 2px 3px;
+  margin: 7px 3px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+/* header{
+  border-bottom: 3px double lightgray;
+} */
+
+form {
+  text-align: center;
+  margin: 10px;
+}
+
+label {
+  display: block;
+  width: 200px;
+  margin: auto;
+  font-size: 22px;
+}
+
+input, select {
+  width: 150px;
+  margin: 10px auto;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 6px;
+}
+
+.listItem {
+  text-align: center;
+  border-bottom: 4px double purple;
+  margin: 20px;
+}
+
